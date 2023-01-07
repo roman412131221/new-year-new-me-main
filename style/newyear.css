@@ -1,0 +1,140 @@
+   
+
+  
+  .hero-image {
+    background-image: url(../images/banner/banner2.png);
+    height: 809px;
+    width: 1400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+
+  }
+  
+  .hero-text{
+         text-align: right;
+        position: absolute;
+         width: 525px;
+         height: 228px;
+         left: 845px;
+         top: 216px;
+       
+
+
+  }
+
+  .hero-text>p{
+    text-align: right;
+    
+
+  }
+
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #F15B22;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .parson-image{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   left: 106px;
+   text-align:left;
+   margin-left: 20px;
+   padding-left: 40px;
+   margin-top: 100px;
+  }
+
+  .myPlan{
+    position: absolute;
+    text-align: center;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+  }
+
+  .skill-seacton{
+    gap: 100px;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin-left: 152px;
+    
+  }
+
+  .imageSection{
+   position: absolute;
+   width: 1140px;
+   height: 300px;
+   left: 180px;
+   top: 2222.26px;
+   background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+   border-radius: 8px;
+   
+  
+  }
+
+  .imageSection::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1140px;
+	height: 300px;
+	background-image: linear-gradient(180deg, transparent 0 20%, rgb(219, 15, 15) 90% 100%);
+}
+
+/* footer section */
+   
+.footer{
+    position: absolute;
+width: 1400px;
+height: 577px;
+left: 0px;
+top: 2652.26px;
+background-color: #0f0c29;
+color: aliceblue;
+}
+
+.footercontent{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+   align-items: center;
+   margin-left: 100px;
+   height: 577px;
+   width: 1100px;
+   gap: 200px;
+
+}
+
+
+
+
+.btn{
+    color: red;
+    background-color:wheat;
+    width: 112px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+    
+
+
+
+
+    
+    
+
+
+ 
